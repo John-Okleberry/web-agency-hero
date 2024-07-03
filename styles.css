@@ -1,0 +1,46 @@
+/*
+	Font-family: open-sans
+	Button background: #0ea5e9
+	Fading background image provided
+*/
+
+body {
+    text-align: left;
+    display: flex;
+    height: 10px;
+    background-image: url(/img/faded-office.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-style: #020202;
+    border: #020202;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 525;
+}
+
+.section-hero {
+    justify-content: left;
+    width: 350px;
+    margin: 50px;
+}
+
+.btn-chat {
+    background-color: #0ea5e9;
+    color: white;
+    padding: 20px 30px;
+    font-style: inherit;
+    font-weight: 750;
+    border: 5px;
+    font-size: 20px;
+}
+
+.underline {
+    border-bottom: 4px solid #0ea5e9;
+}
